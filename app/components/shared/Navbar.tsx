@@ -26,9 +26,9 @@ const links = [
 const Navbar = () => {
     return (
       <header>
-        <nav>
+        <nav className="flex items-center justify-between max-w-[1440px] mx-auto">
           <div>
-            <img alt="Logo" src="/assets/burger_logo.png" />
+            <img className="w-16 h-16" alt="Logo" src="/assets/burger_logo.png" />
           </div>
           <div>
             <ul>
